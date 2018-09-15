@@ -1,0 +1,17 @@
+[package]
+name = "collatz_fractal"
+version = "0.1.0"
+authors = ["Christopher Sumnicht <csumnicht@berkeley.edu>"]
+
+[dependencies]
+image = "*"
+num-complex = "0.2"
+argparse = "0.2.2"
+
+[lib]
+name = "fraclib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "colbin"
+path = "src/main.rs"
